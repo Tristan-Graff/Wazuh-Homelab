@@ -22,7 +22,7 @@ To get started we’re going to deploy the Wazuh Server locally on a VirtualBox 
 
 Kicking us off we’re going to install the OVA file from the above linked documentation then deploy it within a VirtualBox VM.
 
-We won't cover how to deploy an OVA file to VirtualBox but you can find a great example [here](https://chenweixiang.github.io/docs/How_to_Import_and_Export_OVA_Files_in_VirtualBox.pdf). After we have deployed the VM let's launch it and see if it successfully launches. After starting it up and logging in using default credentials we see the terminal below. This indicates that the deployment of the Wazuh Server is successful!
+We won't cover how to deploy an OVA file to VirtualBox but you can find a great example [here](https://chenweixiang.github.io/docs/How_to_Import_and_Export_OVA_Files_in_VirtualBox.pdf). After we have deployed the VM let's launch it and see if it successfully launches. After starting it up and logging in using [default credentials](https://documentation.wazuh.com/current/deployment-options/virtual-machine/virtual-machine.html#import-and-access-the-virtual-machine) we see the terminal below. This indicates that the deployment of the Wazuh Server is successful!
 
 ![Deploying Wazuh Server](screenshots/Picture1.png)
 
@@ -34,7 +34,7 @@ Now that we have the IP we can browse there (https://192.168.0.4). On browsing t
 
 ![Wazuh Server Login](screenshots/Picture3.png)
 
-We are given default credentials within their documentation to login here. After logging in we see the Wazuh Server main dashboard.
+We are given default credentials within [their](https://documentation.wazuh.com/current/deployment-options/virtual-machine/virtual-machine.html#access-the-wazuh-dashboard) documentation to login here. After logging in we see the Wazuh Server main dashboard.
 
 ![Wazuh Server Dashboard](screenshots/Picture4.png)
 
@@ -42,7 +42,7 @@ We are given default credentials within their documentation to login here. After
 
 We want to test the Wazuh Agents on a range of devices. We’re going to test on a Linux VM (Kali) and a Windows VM.
 
-Getting started with Kali we need to go download the relevant files from Kali.org. The file can be downloaded here. Always remember to verify the hash checksum with what you downloaded.
+Getting started with Kali we need to go download the relevant files from Kali.org. The file can be downloaded [here](https://www.kali.org/get-kali/#kali-virtual-machines). Always remember to verify the hash checksum with what you downloaded.
 
 To verify the checksum of the hash after installing the zip file do the following:
 1. Open a terminal.
@@ -61,7 +61,7 @@ At this point we're not sure if we need internet connectivity for the agent to b
 
 ### Deploying Windows VM
 
-Same as with the other VMs we’re going to go download the necessary files for the VirtualBox VM here.
+Same as with the other VMs we’re going to go download the necessary files for the VirtualBox VM [here](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/).
 
 ![Download Windows VM Files](screenshots/Picture7.png)
 
@@ -193,7 +193,7 @@ Immediately after clicking on the “2” we see the logs in their SIEM module. 
 
 ### Automated Testing
 
-Now that we’ve done some manual testing let's try using an Endpoint Detection and Response (EDR) testing script that will perform a few MITRE ATT&CK techniques but the payload is the Windows calculator. The script can be found here - all credit to op7ic for creating it. We’re going to download the code using the green button pictured below.
+Now that we’ve done some manual testing let's try using an Endpoint Detection and Response (EDR) testing script that will perform a few MITRE ATT&CK techniques but the payload is the Windows calculator. The script can be found [here](https://github.com/op7ic/EDR-Testing-Script/tree/master) - all credit to [op7ic](https://github.com/op7ic) for creating it. We’re going to download the code using the green button pictured below.
 
 ![Download EDR Script](screenshots/Picture33.png)
 
@@ -225,7 +225,7 @@ While checking the field values for this event the name of the created service w
 
 ![Evilservice Details](screenshots/Picture40.png)
 
-Just to confirm we can review the source code of runtests.bat and we see line 488 and 499 creating and starting the service.
+Just to confirm we can review the source code of [runtests.bat](https://github.com/op7ic/EDR-Testing-Script/blob/master/runtests.bat) and we see line 488 and 499 creating and starting the service.
 
 ![Review Source Code](screenshots/Picture41.png)
 
