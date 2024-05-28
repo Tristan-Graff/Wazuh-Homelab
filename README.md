@@ -18,7 +18,7 @@ Deploying the open-source SIEM/EDR solution Wazuh and stress testing the capabil
 
 ### Deploying Wazuh Server VM
 
-To get started we’re going to deploy the Wazuh Server locally on a VirtualBox VM. The documentation is up to date and very robust.
+To get started we’re going to deploy the Wazuh Server locally on a VirtualBox VM. The [documentation](https://documentation.wazuh.com/current/deployment-options/virtual-machine/virtual-machine.html) is up to date and very robust.
 
 Kicking us off we’re going to install the OVA file from the above linked documentation then deploy it within a VirtualBox VM.
 
