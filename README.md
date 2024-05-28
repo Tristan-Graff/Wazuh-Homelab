@@ -22,7 +22,7 @@ To get started we’re going to deploy the Wazuh Server locally on a VirtualBox 
 
 Kicking us off we’re going to install the OVA file from the above linked documentation then deploy it within a VirtualBox VM.
 
-We won't cover how to deploy an OVA file to VirtualBox but you can find a great example here. After we have deployed the VM let's launch it and see if it successfully launches. After starting it up and logging in using default credentials we see the terminal below. This indicates that the deployment of the Wazuh Server is successful!
+We won't cover how to deploy an OVA file to VirtualBox but you can find a great example [here](https://chenweixiang.github.io/docs/How_to_Import_and_Export_OVA_Files_in_VirtualBox.pdf). After we have deployed the VM let's launch it and see if it successfully launches. After starting it up and logging in using default credentials we see the terminal below. This indicates that the deployment of the Wazuh Server is successful!
 
 ![Deploying Wazuh Server](screenshots/Picture1.png)
 
