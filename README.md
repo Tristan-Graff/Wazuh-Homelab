@@ -2,9 +2,6 @@
 
 Deploying the open-source SIEM/EDR solution Wazuh and stress testing the capabilities of the platform.
 
-**Tags:** Wazuh, SIEM, Virtual Machines, Cyber Security, PowerShell, Metasploit  
-**Prepared by:** Tristan Graff
-
 ## Table of Contents
 1. [Environment Setup](#environment-setup)
 2. [Deploying Wazuh Server VM](#deploying-wazuh-server-vm)
