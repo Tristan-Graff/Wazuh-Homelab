@@ -3,14 +3,14 @@
 Deploying the open-source SIEM/EDR solution Wazuh and stress testing the capabilities of the platform.
 
 ## Table of Contents
-1. [Environment Setup](#environment-setup)
-2. [Deploying Wazuh Server VM](#deploying-wazuh-server-vm)
-3. [Deploying Kali VM](#deploying-kali-vm)
-4. [Deploying Windows VM](#deploying-windows-vm)
-5. [Deploying Wazuh Agents](#deploying-wazuh-agents)
+- [Environment Setup](#environment-setup)
+    - [Deploying Wazuh Server VM](#deploying-wazuh-server-vm)
+    - [Deploying Kali VM](#deploying-kali-vm)
+    - [Deploying Windows VM](#deploying-windows-vm)
+- [Deploying Wazuh Agents](#deploying-wazuh-agents)
     - [Deploying Wazuh Agent to Kali VM](#deploying-wazuh-agent-to-kali-vm)
     - [Deploying Wazuh Agent to Windows VM](#deploying-wazuh-agent-to-windows-vm)
-6. [Stress Testing our Agents](#stress-testing-our-agents)
+- [Stress Testing our Agents](#stress-testing-our-agents)
     - [Manual Testing](#manual-testing)
     - [Automated Testing](#automated-testing)
 
